@@ -2,9 +2,9 @@
 	$db_host = "localhost";
 
 	
-	$db_user = "jmp724";  
-	$db_pwd = "!Mp9662063174"; 
-	$db_db = "jmp724";
+	$db_user = "";  
+	$db_pwd = ""; 
+	$db_db = "";
 
 	$charset = 'utf8mb4';
 	$attr = "mysql:host=$db_host;dbname=$db_db;charset=$charset";
@@ -13,4 +13,5 @@
 		PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 		PDO::ATTR_EMULATE_PREPARES   => false,
 	];
+
 ?>
